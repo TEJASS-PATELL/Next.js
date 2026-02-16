@@ -1,10 +1,10 @@
-import Navigation from "../components/Navigation";
+import Navigation from "../../components/Navigation";
 
 export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <Navigation />
+        <Navigation /> 
         {children}
       </body>
     </html> 
