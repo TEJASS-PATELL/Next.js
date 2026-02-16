@@ -1,22 +1,25 @@
 import React from 'react'
+import "./Navigation.css"
+import Link from 'next/link'
 
 export default function Navigation() {
   return (
-    <header>
-        <div>
-
+    <header className="header">
+        <div className="logo">
+            MyLogo
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href='/home'>Home</a>
+
+        <nav className="navbar">
+            <ul className="nav-list">
+                <li className="nav-item">
+                    <Link href='/home' className="nav-link">Home</Link>
                 </li>
-                <li>Setting</li>
-                <li>
-                    <a href='/about'>About</a>
+                <li className="nav-item">
+                    <Link href='/settings' className="nav-link">Settings</Link>
                 </li>
-                <li></li>
-                <li></li>
+                <li className="nav-item">
+                    <Link href='/about' className="nav-link">About</Link>
+                </li>
             </ul>
         </nav>
     </header>
