@@ -8,7 +8,7 @@ const roboto = Roboto({
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <body className={roboto.className}>
         <Navigation /> 
         {children}
