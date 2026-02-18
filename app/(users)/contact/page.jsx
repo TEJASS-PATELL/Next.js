@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div style={styles.container}>
       <h1 style={styles.heading}>Simple React Page</h1>
-      <Image src={Swiggy} width={500} height={500} alt="image" priority={false} placeholder="blur" blurDataURL=""/>
+      <Image src={Swiggy} width={500} height={500} alt="image" priority={false} placeholder="blur"/>
       <p style={styles.text}>
         This is a simple React page with an image.
       </p>
