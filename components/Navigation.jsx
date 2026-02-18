@@ -23,6 +23,9 @@ export default function Navigation() {
                 <li className="nav-item">
                     <Link href='/contact' className="nav-link">Contact</Link>
                 </li>
+                <li className="nav-item">
+                    <Link href='/services' className="nav-link">Services</Link>
+                </li>
             </ul>
         </nav>
     </header>

@@ -6,6 +6,12 @@ const roboto = Roboto({
   weight: ["400", "700"],
 })
 
+export const metadata = {
+  icons: {
+    icon: "eagle.png"
+  }
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
