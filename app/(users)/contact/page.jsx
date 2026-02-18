@@ -1,16 +1,12 @@
+import Image from "next/image";
 import React from "react";
+import Swiggy from "@/public/Swiggy.png"
 
 export default function page() {
   return (
     <div style={styles.container}>
       <h1 style={styles.heading}>Simple React Page</h1>
-
-      <img
-        src="Swiggy.png"
-        alt="Sample"
-        style={styles.image}
-      />
-
+      <Image src={Swiggy} width={500} height={500} alt="image" priority={false} placeholder="blur" blurDataURL=""/>
       <p style={styles.text}>
         This is a simple React page with an image.
       </p>
