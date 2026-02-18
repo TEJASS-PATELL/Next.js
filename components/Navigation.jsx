@@ -15,7 +15,7 @@ export default function Navigation() {
                     <Link href='/home' className="nav-link">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link href='/settings' className="nav-link">Settings</Link>
+                    <Link href='/setting' className="nav-link">Setting</Link>
                 </li>
                 <li className="nav-item">
                     <Link href='/about' className="nav-link">About</Link>
