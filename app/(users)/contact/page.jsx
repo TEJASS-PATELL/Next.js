@@ -6,7 +6,7 @@ export default function page() {
       <h1 style={styles.heading}>Simple React Page</h1>
 
       <img
-        src="https://via.placeholder.com/300"
+        src="Swiggy.png"
         alt="Sample"
         style={styles.image}
       />

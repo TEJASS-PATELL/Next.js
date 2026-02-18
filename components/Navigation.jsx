@@ -20,6 +20,9 @@ export default function Navigation() {
                 <li className="nav-item">
                     <Link href='/about' className="nav-link">About</Link>
                 </li>
+                <li className="nav-item">
+                    <Link href='/contact' className="nav-link">Contact</Link>
+                </li>
             </ul>
         </nav>
     </header>
