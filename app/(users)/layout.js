@@ -8,7 +8,7 @@ const roboto = Roboto({
 
 export const metadata = {
   icons: {
-    icon: "eagle.png"
+    icon: "/eagle.png"
   }
 }
 
